@@ -24,7 +24,6 @@ Para este projeto, foram utilizadas as seguintes tecnologias e recursos:
 - [ReactJs](https://pt-br.reactjs.org/)
 - [NextJS](https://nextjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
-- [React Testing Library](https://testing-library.com/)
 - [Testing Library](https://testing-library.com/)
 - [Jest](https://jestjs.io/pt-BR/)
 - [Prettier](https://prettier.io/)
@@ -37,13 +36,13 @@ Para este projeto, foram utilizadas as seguintes tecnologias e recursos:
 Passo 1: Faça a clonagem do projeto com o comando abaixo:
 
 ```bash
-$ git clone https://github.com/fsclaro/react-template
+$ git clone https://github.com/fsclaro/next-template
 ```
 
 Passo 2: Entre na pasta do projeto:
 
 ```bash
-$ cd react-template
+$ cd next-template
 ```
 
 Passo 3: Inicie o projeto conforme os passos descritos abaixo:
@@ -53,12 +52,12 @@ Passo 3: Inicie o projeto conforme os passos descritos abaixo:
 $ yarn
 
 # Iniciar o projeto
-$ yarn start
+$ yarn dev
 ```
 
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-Este template destina-se a permitir a criação inicial de projetos que utilizem ReactJS, Typescript, TailwindCSS e Jest.
+Este template destina-se a permitir a criação inicial de projetos que utilizem ReactJS, Typescript e Jest.
 
 ## ⌨️ Comandos
 
@@ -68,29 +67,19 @@ $ yarn build
 Para gerar a aplicação para ser enviada para produção
 
 ```bash
-$ yarn lint-code
+$ yarn start
 ```
-Executa o Prettier nos arquivos .ts{x} e .js{x} que estiverem na pasta src do projeto
+Executa a aplicação em modo production
 
 ```bash
-$ yarn lint-code:fix
+$ yarn lint
 ```
-Tenta corrigir problemas de padronização nos arquivos .ts{x} e .js{x} que estiverem na pasta src do projeto.
-
-```bash
-$ yarn lint-styles
-```
-Executa o Stylelint nos arquivos .css que estiverem na pasta src do projeto
-
-```bash
-$ yarn lint-styles:fix
-```
-Tenta corrigir problemas de padronização nos arquivos .css que estiverem na pasta src do projeto.
+Executa o Prettier nos arquivos .ts{x} que estiverem na pasta pages do projeto
 
 ```bash
 $ yarn test
 ```
-Executa o Jest nos testes existentes na pasta src do projeto.
+Executa o Jest nos testes existentes na pasta pages do projeto.
 
 ## 📝 Licença
 
